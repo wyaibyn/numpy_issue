@@ -35,8 +35,8 @@ def normalize_feature(node, delete_list):
 
 #gc.set_debug(gc.DEBUG_STATS|gc.DEBUG_LEAK)
 
-rows=10240
-columns=1024
+rows=1024
+columns=10240
 a = []
 for i in range(0, rows):
     b = []
